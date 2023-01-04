@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 header {
@@ -105,7 +106,7 @@ header h3{
     color: #333333;
 }
 
-.prato h3, .bebida h3, .sobremesa h3{
+.descricao{
     font-weight: 300;
     font-size: 15px;
     color: #A6A6A6;
@@ -114,7 +115,7 @@ header h3{
     margin-left: 14px;
 }
 
-.prato h4, .bebida h4, .sobremesa h4{
+.preco{
     font-weight: 400;
     font-size: 16px;
     color: #000000;
