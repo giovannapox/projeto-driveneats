@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 92px;
+    width: 100%;
+    background-color: #CF2B2B;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header h1{
+    font-size: 44px;
+    color:#FFFFFF;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    line-height: 55px;
+    margin-left: 21px;
+}
+
+header h3{
+    font-size: 18px;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 21px;
+}
+
+.container{
+    background-color: #EEEEEE;
+}
+
+.prato-principal{
+    margin-top: 92px;
+}
+
+.prato-principal h1, .bebida-principal h1, .sobremesa-principal h1{
+    font-size: 26px;
+    color:#333333;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 19px;
+    padding-top: 31px;
+}
+
+.pratos, .bebidas, .sobremesas {
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: scroll;
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.pratos::-webkit-scrollbar, .bebidas::-webkit-scrollbar, .sobremesas::-webkit-scrollbar {
+    display: none;
+  }
+
+.prato{
+    width: 172px;
+    height: 216px;
+    margin-left: 19px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));   
+}
+
+.bebida{
+    width: 172px;
+    height: 202px;
+    margin-left: 19px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25)); 
+}
+
+.sobremesa{
+    width: 172px;
+    height: 197px;
+    margin-left: 19px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25)); 
+    margin-bottom: 100px;
+}
+
+.prato h2, .bebida h2, .sobremesa h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+}
+
+.prato h3, .bebida h3, .sobremesa h3{
+    font-weight: 300;
+    font-size: 15px;
+    color: #A6A6A6;
+    line-height: 18px;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.prato h4, .bebida h4, .sobremesa h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    line-height: 19px;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.prato img, .bebida img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin: 18px 14px 0 14px;
+    object-fit: contain;
+}
+
+.prato img{
+    object-fit: cover;
+}
+
+.sobremesa img{
+    width: 144px;
+    height: 82px;
+    border-radius: 4px;
+    margin: 18px 14px 0 14px;
+    object-fit: cover;
+}
+
+.inferior{
+    height: 92px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+button{
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    text-align: center;
+}
