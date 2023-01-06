@@ -76,6 +76,7 @@ header h3{
     border-radius: 9px;
     background-color: #FFFFFF;
     filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));   
+    position: relative;
 }
 
 .bebida{
@@ -84,7 +85,8 @@ header h3{
     margin-left: 19px;
     border-radius: 9px;
     background-color: #FFFFFF;
-    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25)); 
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+    position: relative; 
 }
 
 .sobremesa{
@@ -95,6 +97,7 @@ header h3{
     background-color: #FFFFFF;
     filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25)); 
     margin-bottom: 100px;
+    position: relative;
 }
 
 .prato h2, .bebida h2, .sobremesa h2{
@@ -170,3 +173,25 @@ button{
     line-height: 23px;
     text-align: center;
 }
+
+.selecionado{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.icone{
+    color: #32B72F;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    display: none;
+}
+
+.selecionado .icone{
+    display: initial;
+}
+
+.icone ion-icon{
+    width: 18px;
+    height: 18px;
+}
+
