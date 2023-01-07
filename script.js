@@ -75,8 +75,8 @@ function verificaPedido(){
     if (prato !== undefined && bebida !== undefined && sobremesa !== undefined) {
  
         const botao = document.querySelector(".botao");
-        botao.classList.add('finalizado')
-        botao.removeAttribute("disabled")
+        botao.classList.add('finalizado');
+        botao.removeAttribute("disabled");
         botao.innerHTML = "Fechar pedido";      
 }
 
