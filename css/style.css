@@ -118,7 +118,7 @@ header h3{
     margin-left: 14px;
 }
 
-.preco{
+.preco-item{
     font-weight: 400;
     font-size: 16px;
     color: #000000;
@@ -232,7 +232,6 @@ button{
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -242,6 +241,32 @@ button{
     font-weight: 700;
     line-height: 26px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 28px;
+    margin-top: 21px;
+}
+
+.info-pedidos p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.info-pedidos h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.info-prato, .info-bebida, .info-sobremesa, .info-total{
+    width: 329px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .botaoPedir{
