@@ -182,7 +182,7 @@ button{
     color: #32B72F;
     position: absolute;
     right: 10px;
-    bottom: 15px;
+    bottom: 5px;
     display: none;
 }
 
@@ -195,3 +195,72 @@ button{
     height: 18px;
 }
 
+.escondido{
+    display: none;
+}
+
+.finalizado{
+    background-color: #32B72F;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.finalizar-pedido{
+    background: rgba(255, 255, 255, 0.9);;
+    width: 100vw;
+    height: 1100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.pop-up{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    width: 377px;
+    height: 353px;
+    border-radius: 9px;
+    background-color: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h1{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botaoPedir{
+    width: 329px;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    color:#50D074;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.botaoCancelar{
+    width: 329px;
+    height: 52px;
+    color: #FFFFFF;
+    background-color: #50D074;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
