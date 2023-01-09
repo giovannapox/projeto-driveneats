@@ -129,7 +129,6 @@ function enviarWhats(){
     + prato + '\n - Bebida: ' + bebida + '\n - Sobremesa: ' + sobremesa +
     '\n Total: R$ ' + totalReplace + '\n \n Nome: ' + nome + '\n Endereço: ' + endereco; 
 
-    const enviaPedido = "https://wa.me/5599999999999?text=" + encodeURI(mensagem);
+    const enviaPedido = "https://wa.me/5511942167462?text=" + encodeURI(mensagem);
     window.open(enviaPedido)
 }
-
